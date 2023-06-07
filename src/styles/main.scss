@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal-container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+
+    header {
+        padding-top: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .nav {
+            gap: 2vw;
+
+            .nav-link{
+                font-size: 1.2em;
+                color: #fff;
+                &:hover {
+                    color: #473129;
+                }
+            }
+            
+    
+        }
+    
+        
+    }
+
+    .main-section {
+        float: right;
+        max-width: 55%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+    
+        p {
+            color: #ffffff;
+            font-size: 1.3em;
+        }
+    
+        h1 {
+            font-family: 'GFS Didot', serif;
+            font-weight: bold;
+            font-size: 3em;
+            color: rgb(255, 255, 255);
+        }
+    
+        .btn {
+            background-color: #ffffff;
+            height: 40px;
+            width: 60%;
+            font-weight: 700;
+            color: #473129;
+        
+            &:hover {
+                background-color: #ffffff54;
+            }
+        }
+    }
+}
+
+.background{
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.253), rgba(0, 0, 0, 0.692)), url(/casaGonzalezAssets/walnuts-1739021.jpg) center/cover no-repeat;
+    max-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+}
+
+
+
+.products-section {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+
+    ul {
+        li {
+
+            .nav-link {
+                color: #473129;
+
+            }
+            
+        }
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #473129 !important;
+    }
+}
+
+.contact-section {
+    padding-top: 10vh;
+
+}
+
+footer {
+    background-color: #473129;
+    height: 15vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socials {
+    ul{
+        display: flex;
+        gap: 2vw;
+        font-size: 1.5em;
+        list-style: none;
+        padding-left: 0;
+
+        ion-icon {
+            color: #473129;
+        }
+       
+    }
+
+    margin-top: 5vh;
+}
+
+.btn-primary {
+    background-color: #615854!important;
+    border: none !important;
+}
+
+@media  (max-width: 767px) {
+    .principal-container {
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+
+        .main-section {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 20vh;
+        
+            
+
+    }
+    
+    
+
+}
+}
+
+
+
+
