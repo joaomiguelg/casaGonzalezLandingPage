@@ -6,12 +6,11 @@
 }
 
 .principal-container {
-    max-width: 1240px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    padding-left: 36px;
-    padding-right: 36px;
+    padding: 0 42px;
 
     header {
         padding-top: 54px;
@@ -41,8 +40,8 @@
         max-width: 55%;
         display: flex;
         flex-direction: column;
-        margin-top: 30vh;
-    
+        margin-top: 20vh;
+        
         p {
             color: #ffffff;
             font-size: 1.3em;
@@ -58,7 +57,7 @@
         .btn {
             background-color: #ffffff;
             height: 40px;
-            width: 60%;
+            width: 80%;
             font-weight: 700;
             color: #473129;
         
@@ -126,21 +125,34 @@ footer {
 
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 576px) {
     .principal-container {
-        width: 100%;
-        max-width: 560px;
-        margin: 0 auto;
+
+        padding: 0 12px;
+        header {
+            justify-content: flex-start;
+            .nav {
+            display: none; 
+            
+            }
+            
+        }
 
         .main-section {
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            margin-top: 20vh;
+            float: left;
+            width: 100%;
+            max-width: 560px;
+            margin-top: 30vh;
+        
+            .btn {
+                width: 100%;
+            }
+        }
+
     }
 }
-}
+
+
 
 
 
