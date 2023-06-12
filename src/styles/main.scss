@@ -85,12 +85,18 @@
     align-items: center;
 
     ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
         li {
             .nav-link {
                 color: #473129;
 
             }
         }
+        
     }
 
     .nav-pills .nav-link.active {
@@ -98,13 +104,41 @@
     }
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.price {
+    color: rgb(110, 110, 110);
+}
+
+.weight-container {
+    display: flex;
+    gap: 8px;
+
+}
+
+.products-weight {
+    padding: 5px;
+    background-color: #ebdd9f;
+    border-radius: 8px;
+    font-size: small;
+    color: #473129;
+}
+
 .socials {
     ul{
         display: flex;
-        font-size: 1.5em;
+        font-size: 3em;
         list-style: none;
         padding-left: 0;
-        gap:1vw;
+        gap:3vw;
 
         ion-icon {
             color: #473129;
@@ -118,9 +152,21 @@
     border: none !important;
 }
 
+.contact-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        padding-left: 12px;
+    }
+    
+   }
+
 footer {
     background-color: #473129;
-    height: 15vh;
+    height: 10vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -128,8 +174,7 @@ footer {
     
     p{
         max-width: 80%;
-
-        
+    
     }
 
 }
@@ -157,27 +202,6 @@ footer {
     .products-section {
         padding-top: 68px;
     }
-
-   .products-section {
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-    
-   }
-
-   .contact-section {
-
-    h2 {
-        padding-left: 12px;
-    }
-     .socials {
-        margin-top: 24px;
-     }
-
-   }
-
     
 }
 
