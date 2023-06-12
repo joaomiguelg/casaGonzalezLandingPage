@@ -125,6 +125,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    p{
+        max-width: 80%;
+
+        
+    }
 
 }
 
@@ -151,6 +157,26 @@ footer {
     .products-section {
         padding-top: 68px;
     }
+
+   .products-section {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+   }
+
+   .contact-section {
+
+    h2 {
+        padding-left: 12px;
+    }
+     .socials {
+        margin-top: 24px;
+     }
+
+   }
 
     
 }
