@@ -112,8 +112,8 @@
     button {
         border: none;
         background-color: #473129;
-        width: 30%;
-        height: 5vh;
+        width: 90px;
+        height: 40px;
         border-radius: 8px;
         
 
@@ -149,10 +149,10 @@
 .socials {
     ul{
         display: flex;
-        font-size: 3em;
+        font-size: 2em;
         list-style: none;
         padding-left: 0;
-        gap:3vw;
+        gap:1vw;
 
         ion-icon {
             color: #473129;
